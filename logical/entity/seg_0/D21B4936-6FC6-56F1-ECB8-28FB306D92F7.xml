@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D21B4936-6FC6-56F1-ECB8-28FB306D92F7" name="T_DEPENDENTE">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:06:00 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="1E57B5AE-FA47-1837-9659-D6DF6A4F929C">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:45:32 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_funcionario" id="06C76360-BF85-EFA8-7EAF-B62EADE64AC4">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-23 22:59:10 UTC</createdTime>
+<generatorID>5B8379B1-B19D-9D94-0982-055B9FE6B422</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<referedAttribute>AD3FD817-9CC5-210F-3748-63FAE10507C0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="223FFD6A-D747-F217-931F-18F2569AD981">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:45:54 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="558514D8-5BCE-EE25-743C-EECA2FE22577">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:46:06 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="B612BBA7-2417-C007-B940-556A4E47DC02">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:46:20 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="579593B6-7676-8044-D193-DA576E2446D3" name="T_DEPENDENTE PK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:38:36 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E57B5AE-FA47-1837-9659-D6DF6A4F929C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

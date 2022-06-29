@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="fase3 cap7" id="97915771-64DC-9814-7BBE-FD107347793B" version="3.5">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 22:55:25 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>97915771-64DC-9814-7BBE-FD107347793B</designId>
+</OSDM_Design>

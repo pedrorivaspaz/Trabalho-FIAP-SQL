@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6611BB5B-F794-2896-E4D3-3DE1C18BE172" containerWithKeyObject="9B3E56FD-BC48-8986-61C3-BBD72A4E2832" localFKIndex="EE007B26-BEC2-E17D-5CB3-92FACEC2849D" name="T_IMPLANTACAO_FINTECH_T_DEPTOS_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>24EFE4D8-365D-5FA0-6E7D-76FC89C7C2C0</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<referredTableLongName>T_DEPTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>807553AA-FC4B-41CD-B3BD-CB9F047CC220</referredTableID>
+<keyObject>0199B350-BE91-85A4-8F97-766ECE1EA229</keyObject>
+<referredKeyID>0199B350-BE91-85A4-8F97-766ECE1EA229</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_depto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

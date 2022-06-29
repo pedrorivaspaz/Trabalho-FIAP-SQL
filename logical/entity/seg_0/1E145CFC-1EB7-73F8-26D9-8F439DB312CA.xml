@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E145CFC-1EB7-73F8-26D9-8F439DB312CA" name="T_IMPLANTACAO_FINTECH">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:14:23 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_implantacao" id="B41B1F0E-FEC3-012B-22A9-929B006DF1E5">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:31:17 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_depto" id="54FDA300-B4B9-D3A9-4697-63B093F46EC4">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:55:16 UTC</createdTime>
+<generatorID>24EFE4D8-365D-5FA0-6E7D-76FC89C7C2C0</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<referedAttribute>122AB237-7E99-6DF8-64DD-9CC7DD30529F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_custo_operacional" id="809D7600-F9DD-1663-01AA-CB41F5A1035E">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:32:00 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="34042355-9F7A-172F-04CC-0AC7D9C318AB">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:31:41 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="190AE647-DA64-1046-ED60-B5E8D56F9DE7">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:31:52 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0419C522-5CC0-A828-A78C-1703EBCEDC25" name="T_IMPLANTACAO_FINTECH PK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:29:59 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B41B1F0E-FEC3-012B-22A9-929B006DF1E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

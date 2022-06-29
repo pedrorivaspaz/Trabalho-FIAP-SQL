@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC08C958-7A1B-B4EC-1447-B4F22545279A" name="T_DEPENDENTE">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>D21B4936-6FC6-56F1-ECB8-28FB306D92F7</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_dependente" id="06689630-C2AE-1E59-AE62-40BDC71424C4">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>1E57B5AE-FA47-1837-9659-D6DF6A4F929C</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FUNCIONARIO_cd_funcionario" id="A6F5101B-6FA8-2340-0053-4C546456C3D2">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-23 23:01:51 UTC</createdTime>
+<generatorID>06C76360-BF85-EFA8-7EAF-B62EADE64AC4</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="515394DD-48FB-154A-2AC4-B217762F75BD" referredColumn="57C6FDC1-CAF0-63E2-A0AD-7E7806BA8694"/>
+</associations>
+</Column>
+<Column name="nm_dependente" id="A238DABF-E696-822B-0428-A75346599688">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>223FFD6A-D747-F217-931F-18F2569AD981</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="D8DC45FF-3580-E330-CDAB-DC38AD6DDF93">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>558514D8-5BCE-EE25-743C-EECA2FE22577</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="6359FC6F-7E06-0A9D-86FA-F38BE08D946D">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>B612BBA7-2417-C007-B940-556A4E47DC02</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98BCE0DF-01A5-9C9A-CAAB-ED1A29FEDBEA" name="T_DEPENDENTE_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>579593B6-7676-8044-D193-DA576E2446D3</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06689630-C2AE-1E59-AE62-40BDC71424C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2691A1C0-02BA-FCA4-3847-3CAB9EA66861" name="T_DEPENDENTE__IDXv1">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-23 23:01:51 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B8379B1-B19D-9D94-0982-055B9FE6B422</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A6F5101B-6FA8-2340-0053-4C546456C3D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C732068D-0678-5FC7-71FA-D1535EB16FE4" name="T_DEPENDENTE_T_FUNCIONARIO_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-23 23:01:51 UTC</createdTime>
+<generatorID>5B8379B1-B19D-9D94-0982-055B9FE6B422</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6F5101B-6FA8-2340-0053-4C546456C3D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

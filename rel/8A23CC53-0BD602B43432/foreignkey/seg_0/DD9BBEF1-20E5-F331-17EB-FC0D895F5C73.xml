@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD9BBEF1-20E5-F331-17EB-FC0D895F5C73" containerWithKeyObject="8EE18289-5BB2-4430-67B8-4D4CB3C6B4EF" localFKIndex="87191ACE-3C85-9C6C-1D26-58BDDBA89CD0" name="T_PROJETO_FINTECH_T_IMPLANTACAO_FINTECH_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-23 23:05:11 UTC</createdTime>
+<generatorID>670B5368-0A21-944E-3EAE-FC1B551F9449</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<referredTableLongName>T_IMPLANTACAO_FINTECH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B3E56FD-BC48-8986-61C3-BBD72A4E2832</referredTableID>
+<keyObject>007A71E9-E65D-30AA-CE50-D43A62E1E09A</keyObject>
+<referredKeyID>007A71E9-E65D-30AA-CE50-D43A62E1E09A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>T_PROJETO_FINTECH_cd_projeto,cd_implantacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

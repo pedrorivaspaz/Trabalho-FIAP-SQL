@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60FA3FB7-FB59-92F6-B844-CBCD849097F3" name="T_FUNCIONARIO">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>0F47B5A9-D29A-A3D3-410B-A9CCE13B9FA6</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_funcionario" id="57C6FDC1-CAF0-63E2-A0AD-7E7806BA8694">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>AD3FD817-9CC5-210F-3748-63FAE10507C0</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_pessoa" id="9FCDF197-AEFD-A5C5-5AB3-6B072D73DF30">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>13BECC87-391A-0249-40B3-8BD7EF04B8CC</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_emaill" id="7C7992BE-399F-3A3F-3045-0715EA41A8A2">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>58A53F85-9D88-E6A4-01B0-AC9EEC1F1DED</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="0B6BC94F-A50E-A92C-CE87-3CAA706A0BA4">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>F4932544-C475-1F20-3C49-DD1ED2A4C1DF</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="66398AE7-DA41-2EF8-2C80-2EE8D8E2D1B1">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>23A20969-DE1A-1F8F-9C70-92AE2C60DAD3</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="A4AB41FB-6365-A1E5-5536-2178FA2B50C3">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>14504764-CF78-A20B-8D48-D81FAC07CEF9</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="C34B9DDE-904A-6198-1993-4F64CDF3E945">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>B9A22341-2AA8-E1D3-F6AE-3DEF39697592</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="FDEB1CF2-F4BD-7D7D-7E52-6C4FEADEB2DE">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>AA8EB46D-F0E9-9E96-B1CD-783CBFB3A47D</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B69AC8BB-7CDD-26CF-8D81-89D70384CFC0" name="T_FUNCIONARIO_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>C4A524B0-7D40-EF7E-B9CF-F5896D54E7FF</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57C6FDC1-CAF0-63E2-A0AD-7E7806BA8694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

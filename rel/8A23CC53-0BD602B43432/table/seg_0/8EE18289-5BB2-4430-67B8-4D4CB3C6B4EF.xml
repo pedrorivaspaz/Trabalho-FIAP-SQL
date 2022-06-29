@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EE18289-5BB2-4430-67B8-4D4CB3C6B4EF" name="T_PROJETO_FINTECH">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>B9AA1F55-3B9E-806E-6934-EAF5CC63A92B</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="A4FB7F4A-DF86-E331-7D4C-320DD0F30EC3">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>2E2759E5-3699-E88F-58AC-99E215BFC606</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_IMPLANTACAO_FINTECH_T_PROJETO_FINTECH_cd_projeto" id="7B01FDCC-0645-BF7C-11B0-F357A7688729">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-23 23:20:40 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD9BBEF1-20E5-F331-17EB-FC0D895F5C73" referredColumn="4BB5E8F1-33FB-E79D-0A7E-912B099AEF44"/>
+</associations>
+</Column>
+<Column name="nm_projeto" id="6A91F60E-30CF-9937-A4AD-851B0BA55AE7">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>B2AE085B-316A-779B-6FCA-3A83517BC739</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_investido" id="EB891333-976F-E325-0B0A-1E4E343EC15B">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>E57D1831-EC0A-181B-C8E4-668B8239E74D</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_retorno_prevsito" id="96D97AFA-05C1-8917-50E9-4C67479DEBE4">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>B10799FC-6AE4-1798-A82A-FB5586078FE3</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4AAF26F-F80F-546C-7CBC-A7534DD179DA" name="T_PROJETO_FINTECH_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>CD18C61F-905D-3E8C-D8FC-79AE1EA65D02</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4FB7F4A-DF86-E331-7D4C-320DD0F30EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87191ACE-3C85-9C6C-1D26-58BDDBA89CD0" name="T_PROJETO_FINTECH_T_IMPLANTACAO_FINTECH_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-23 23:05:11 UTC</createdTime>
+<generatorID>670B5368-0A21-944E-3EAE-FC1B551F9449</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B01FDCC-0645-BF7C-11B0-F357A7688729"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

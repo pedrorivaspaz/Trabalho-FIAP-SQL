@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="807553AA-FC4B-41CD-B3BD-CB9F047CC220" name="T_DEPTOS">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>BF256EF4-3AF3-7DCC-3B45-63F4ADD84AC7</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_depto" id="C3B10B2B-A54B-A215-1870-D2C99FE704FB">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>122AB237-7E99-6DF8-64DD-9CC7DD30529F</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FUNCIONARIO_cd_funcionario" id="B4507760-1A89-C079-9023-166B18075415">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>463453D5-018E-C0B0-487C-B6F2F4CAE9D5</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A30999E-43DB-E872-593A-EE917381B621" referredColumn="57C6FDC1-CAF0-63E2-A0AD-7E7806BA8694"/>
+</associations>
+</Column>
+<Column name="nm_depto" id="F5E3E85A-71CC-4322-ABBB-B2A5FDE8F894">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>3EF8ABFC-8D4A-D925-1C7D-AA7F3CB3B8F6</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0199B350-BE91-85A4-8F97-766ECE1EA229" name="T_DEPTOS_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>F10112A3-5541-61FF-FD73-05CD8ED6D41D</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3B10B2B-A54B-A215-1870-D2C99FE704FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD898E7D-9EBA-F1D0-5326-44681B1C8090" name="T_DEPTOS_T_FUNCIONARIO_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>375657A0-046B-4C87-543F-6A2E9C48F916</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4507760-1A89-C079-9023-166B18075415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9AA1F55-3B9E-806E-6934-EAF5CC63A92B" name="T_PROJETO_FINTECH">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:02:22 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="2E2759E5-3699-E88F-58AC-99E215BFC606">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:28:24 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_implantacao" id="040171A5-2C64-2C42-C1D2-B42DA04222A1">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-23 23:04:27 UTC</createdTime>
+<generatorID>670B5368-0A21-944E-3EAE-FC1B551F9449</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<referedAttribute>B41B1F0E-FEC3-012B-22A9-929B006DF1E5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_projeto" id="B2AE085B-316A-779B-6FCA-3A83517BC739">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:28:38 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_investido" id="E57D1831-EC0A-181B-C8E4-668B8239E74D">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:28:50 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_retorno_prevsito" id="B10799FC-6AE4-1798-A82A-FB5586078FE3">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:29:14 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD18C61F-905D-3E8C-D8FC-79AE1EA65D02" name="T_PROJETO_FINTECH PK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:28:33 UTC</createdTime>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8A23CC53-84F9-8330-610F-0BD602B43432" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E2759E5-3699-E88F-58AC-99E215BFC606</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

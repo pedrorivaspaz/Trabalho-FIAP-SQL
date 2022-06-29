@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A30999E-43DB-E872-593A-EE917381B621" containerWithKeyObject="807553AA-FC4B-41CD-B3BD-CB9F047CC220" localFKIndex="FD898E7D-9EBA-F1D0-5326-44681B1C8090" name="T_DEPTOS_T_FUNCIONARIO_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2022-05-19 23:59:22 UTC</createdTime>
+<generatorID>375657A0-046B-4C87-543F-6A2E9C48F916</generatorID>
+<ownerDesignName>fase3 cap7</ownerDesignName>
+<referredTableLongName>T_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>60FA3FB7-FB59-92F6-B844-CBCD849097F3</referredTableID>
+<keyObject>B69AC8BB-7CDD-26CF-8D81-89D70384CFC0</keyObject>
+<referredKeyID>B69AC8BB-7CDD-26CF-8D81-89D70384CFC0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_funcionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
